@@ -1,0 +1,35 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="menuBackground">
+  <!-- Math Types -->
+  <div class="typeOfMath">
+    <input [(ngModel)]="addition" id="add" type="checkbox" class="css-checkbox">
+    <label id="addlbl" for="add" class="css-label"></label>
+
+    <input [(ngModel)]="minus" id="minus" type="checkbox" class="css-checkbox">
+    <label id="minuslbl" for="minus" class="css-label"></label>
+
+    <input [(ngModel)]="times" id="times" type="checkbox" class="css-checkbox">
+    <label id="timeslbl" for="times" class="css-label"></label>
+
+    <input [(ngModel)]="division" id="division" type="checkbox" class="css-checkbox">
+    <label id="divlbl" for="division" class="css-label"></label>
+  </div>
+  <!-- Difficulty Lvl -->
+  <div class="difficulty">
+    <img id="diff-logo" src="../../assets/imgs/diff.png">
+    <input [(ngModel)]="easy" name="diff" value="easy" id="easy" type="radio" class="diff-checkbox">
+    <label id="easylbl" for="easy" class="diff-label"></label>
+
+    <input [(ngModel)]="medium" name="diff" value="medium" id="medium" type="radio" class="diff-checkbox">
+    <label id="mediumlbl" for="medium" class="diff-label"></label>
+
+    <input [(ngModel)]="hard" name="diff" value="hard" id="hard" type="radio" class="diff-checkbox">
+    <label id="hardlbl" for="hard" class="diff-label"></label>
+  </div>
+  <div class="play">
+    <button class="btnPlay" (click)="startBtn()">Start</button>
+  </div>
+</ion-content>

@@ -1,0 +1,23 @@
+.mainContent {
+    --background: url(../../assets/imgs/background.jpg) 0 0/100% 100% no-repeat;
+}
+#logoContainer {
+    background-color: gray;
+}
+#typeOfMath {
+    padding-top: 20px;
+}
+.playbtn {
+    position: absolute;
+    bottom: 15%; 
+    left: 35%;
+    height: 75px;
+    width: 150px;
+    font-size: 2em;
+    background-color: gray;
+    border-radius: 15px;
+    font-weight: 800;
+    color: #e6aa50;
+    box-shadow: 5px 4px 10px black;
+    text-shadow: 2px 2px black;
+}
